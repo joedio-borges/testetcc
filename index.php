@@ -33,20 +33,7 @@
                             <tbody>
 								<?php
 
-								$sql = "SELECT * FROM student";
-								$result = $conn->query($sql);				
-								while($row = $result->fetch_assoc()) {
-								
-								$id=$row['student_id'];
-								?>
-								<tr>
-								<td style="text-align:center; margin-top:10px; word-break:break-all; width:450px; line-height:100px;"><a href="#<?php  echo $id;?>" data-toggle="modal">
-									
-									<?php if($row['location'] != ""): ?>
-									<img src="upload/<?php echo $row['location']; ?>" width="100px" height="100px" style="border:1px solid #333333;">
-									<?php else: ?>
-									<img src="images/default.png" width="100px" height="100px" style="border:1px solid #333333;">
-									<?php endif; ?>
+						ndif; ?>
 									</a>
 								
 								</td>
